@@ -1,5 +1,15 @@
 .container {
     width: 1200px;
-    height: 200px;
-    border: 2px solid blue;
+    height: 70px;
+    align-items: start;
+    justify-content: start;
+    padding-left: 40px;
+}
+.title {
+    display: flex;
+    font-size: 40px;
+}
+
+.textBox {
+    display: flex;
 }

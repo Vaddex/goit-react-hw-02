@@ -3,8 +3,8 @@ import css from "./Description.module.css";
 export default function Description() {
     return (
         <div className={css.container}>
-            <h2>Sip Happens Café</h2>
-            <p>
+            <h2 className={css.title}>Sip Happens Café</h2>
+            <p className={css.textBox}>
                 Please leave your feedback about our service by selecting one of
                 the options below.
             </p>

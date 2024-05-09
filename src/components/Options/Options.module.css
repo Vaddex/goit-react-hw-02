@@ -1,5 +1,11 @@
 .container {
-    width: 700px;
+    width: 350px;
     height: 100px;
-    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    padding: 10px;
 }
